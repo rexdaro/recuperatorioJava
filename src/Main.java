@@ -6,12 +6,12 @@ public class Main {
         Duenio d2 = new Duenio("Manu", "Calle Feliciani 135", "2617047380");
 
         Animal perro = new Perro("Teemo", 4, EstadoAnimal.SANO, d1, "Caniche");
-        Animal gato = new Gato("Juansito", 1, EstadoAnimal.GRAVE, d2, "Corto");
+        Animal gato = new Gato("Filomeno", 1, EstadoAnimal.GRAVE, d2, "Corto");
 
         perro.getFichaMedica().agregarPeso(new HistorialPeso(new Date(), 20.5));
         gato.getFichaMedica().agregarPeso(new HistorialPeso(new Date(), 4.3));
 
-        Veterinario vet = new Veterinario("Dr. Juan", "M123");
+        Veterinario vet = new Veterinario("Dr. Juan Perez", "M123");
         vet.agregarEspecialidad("Cirugía");
         vet.agregarEspecialidad("Traumatología");
 
