@@ -2,11 +2,11 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Duenio d1 = new Duenio("Ana", "Calle 123", "123456");
-        Duenio d2 = new Duenio("Luis", "Calle 456", "789012");
+        Duenio d1 = new Duenio("Gabi", "Calle Carola lorenzini 150", "261158930");
+        Duenio d2 = new Duenio("Manu", "Calle Feliciani 135", "2617047380");
 
-        Animal perro = new Perro("Firulais", 5, EstadoAnimal.SANO, d1, "Labrador");
-        Animal gato = new Gato("Mishi", 3, EstadoAnimal.GRAVE, d2, "Largo");
+        Animal perro = new Perro("Teemo", 4, EstadoAnimal.SANO, d1, "Caniche");
+        Animal gato = new Gato("Juansito", 1, EstadoAnimal.GRAVE, d2, "Corto");
 
         perro.getFichaMedica().agregarPeso(new HistorialPeso(new Date(), 20.5));
         gato.getFichaMedica().agregarPeso(new HistorialPeso(new Date(), 4.3));
